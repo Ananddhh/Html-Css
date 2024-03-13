@@ -1,34 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    .container {
-  position: relative;
-}
 
-.text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
-}
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Homepage</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .feature {
+      display: flex;
+      justify-content: space-around;
+      margin: 40px 0;
+    }
+
+    .feature div {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
 <body>
-    <div class="container">
-        <img src="dog-.jpg" alt="Your Image" class="img-fluid">
-        <div class="text-overlay">
-          <h1>Pets are our family members now</h1>
-          <p>Learn about our commitment to adopting all homeless pets.</p>
-          <button type="button" class="btn btn-primary">Learn More</button>
-        </div>
+  <header>
+    <h1>Website Name</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Welcome to our Stylish Homepage</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, odio nec sagittis consequat, libero
+      lectus accumsan velit, eget dapibus arcu quam a nulla.</p>
+
+    <div class="feature">
+      <div>
+        <h3>Feature 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
+      <div>
+        <h3>Feature 2</h3>
+        <p>Nullam aliquet, odio nec sagittis consequat, libero lectus accumsan velit.</p>
+      </div>
+      <div>
+        <h3>Feature 3</h3>
+        <p>Eget dapibus arcu quam a nulla.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+  </footer>
 </body>
+
 </html>
