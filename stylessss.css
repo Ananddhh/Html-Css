@@ -1,3 +1,4 @@
+
 /* Resetting default browser styles */
 body, h1, h2, p, ul, li, img, hr {
     margin: 0;
@@ -68,5 +69,39 @@ body, h1, h2, p, ul, li, img, hr {
     font-size: 1.8em;
     color: #333;
     margin-bottom: 10px;
+  }
+  
+  .item {
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    float: right;
+    color: #666;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .address {
+    color: #666;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+    
+    h2 {
+      font-size: 1.5em;
+    }
+    
+    .menu {
+      padding: 10px;
+    }
   }
   
